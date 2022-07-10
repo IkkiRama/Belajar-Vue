@@ -19,7 +19,7 @@ import { useStore } from 'vuex';
 const state = reactive({
     name : ""
 })
-
+ 
 const store = useStore();
 
 const addLike = () => store.commit("addLike")

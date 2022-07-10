@@ -3,7 +3,7 @@ export const Store = defineStore({
   id: "counter",
   state: () => ({
     count: 0,
-    pokemon: "",
+    pokemon: "", 
   }),
   getters: {
     getCount: (state) => state.count + 100,
@@ -12,7 +12,7 @@ export const Store = defineStore({
     mutipleBy: (state) => (multiplier) => state.count * multiplier,
   },
   actions: {
-    increment() {
+    increment() { 
       this.count++;
     },
     decrement() {
@@ -34,3 +34,8 @@ export const Store = defineStore({
     },
   },
 });
+
+
+
+
+

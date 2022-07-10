@@ -13,6 +13,6 @@ export default {
     addLike: (state) => state.likes++,
     decrementLike: (state) => state.likes--,
   },
-
+ 
   actions: {},
 };

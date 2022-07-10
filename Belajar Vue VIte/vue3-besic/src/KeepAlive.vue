@@ -10,7 +10,7 @@
 
   <keep-alive>
     <component :is="currentTab" />
-  </keep-alive>
+  </keep-alive> 
 </template>
 <script>
 import Home from "./components/Home.vue";
